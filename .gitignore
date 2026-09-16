@@ -1,1 +1,16 @@
-"node_modules/" 
+# Залежності
+node_modules/
+
+# Файли середовища та секрети
+.env
+.env.local
+.env.*.local
+
+# Логи та тимчасові файли
+*.log
+npm-debug.log*
+
+# Папки збірки
+dist/
+build/
+coverage/
